@@ -1,6 +1,6 @@
 /***********************************************************************
 Write a function named: countDownTimer(n). This function will represent a count
-down of days till the New Year. The countDownTimer function will
+down of days till the New Year. the counTtDownTimer function will
 take in a number argument (n) the first time it is called and if that
 number is greater than 0 the countDownTimer will return a function.
 
@@ -29,6 +29,19 @@ Example 4:
 ***********************************************************************/
 
 // Your code here
+function countDownTimer(n){
+  let count = n;
+
+    return function(newFunc){
+      if( count > 0);
+      return newFunc;
+      count--;
+    }
+     console.log(count);
+  }
+
+
+
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
