@@ -27,7 +27,6 @@ function lazyAdder(firstNum){
   return function(secondNum){
     return function(thirdNum){
       return firstNum + secondNum + thirdNum;
-
     }
   }
 }
